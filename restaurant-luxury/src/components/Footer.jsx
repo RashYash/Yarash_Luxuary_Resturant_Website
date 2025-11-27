@@ -31,7 +31,7 @@ function Footer() {
                 1.01l-2.2 2.2z"></path>
               </svg>
             </span>
-            +94 76 833 1087
+            +94 76 888 1137
           </p>
 
           
@@ -80,4 +80,5 @@ function Footer() {
 }
 
 export default Footer;
+
 
