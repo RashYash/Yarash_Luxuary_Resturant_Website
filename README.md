@@ -122,7 +122,7 @@ src/
 
 🚀 How to Run the Project
 # Clone the repository
-git clone https://github.com/your-username/yarash-restaurant.git
+git clone https://github.com/RashYash/Yarash_Luxuary_Resturant_Website.git
 
 # Go into project folder
 cd yarash-restaurant
