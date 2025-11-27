@@ -1,0 +1,123 @@
+.menu-section {
+  padding: 100px 80px;
+  background: var(--black);
+  color: var(--light-text);
+}
+
+.section-title {
+  font-size: 42px;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  color: var(--gold);
+  margin-bottom: 40px;
+}
+.menu-description {
+  max-width: 800px;
+  margin: 0 auto 40px auto; 
+  color: var(--gray-text);
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+
+
+.menu-categories {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.category-btn {
+  background: transparent;
+  border: 2px solid var(--gold);
+  color: var(--gold);
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.category-btn.active,
+.category-btn:hover {
+  background: var(--gold);
+  color: black;
+}
+
+
+.slider-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 10px 0;
+}
+
+.arrow-btn {
+  background: var(--gold);
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  font-size: 22px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+.menu-slider {
+  display: flex;
+  overflow-x: auto;
+  gap: 25px;
+  padding-bottom: 10px;
+  scroll-behavior: smooth;
+}
+
+.menu-slider::-webkit-scrollbar {
+  height: 8px;
+}
+.menu-slider::-webkit-scrollbar-thumb {
+  background: var(--gold);
+  border-radius: 10px;
+}
+
+
+.menu-card {
+  background: var(--dark);
+  min-width: 320px;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.4);
+  transition: 0.3s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-10px);
+}
+
+.menu-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.menu-info {
+  padding: 20px;
+}
+
+.menu-info h3 {
+  color: var(--gold);
+  margin-bottom: 5px;
+}
+
+.menu-info p {
+  color: var(--gray-text);
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 18px;
+  color: var(--soft-gold);
+  font-weight: bold;
+}
+
+

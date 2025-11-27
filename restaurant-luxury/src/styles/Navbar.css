@@ -1,0 +1,76 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 20px 70px; 
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  z-index: 100;
+  gap: 850px; 
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 50px; 
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px; 
+}
+
+
+.nav-logo {
+  color: var(--gold);
+  font-size: 28px;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 2px;
+}
+
+
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--light-text);
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: var(--gold);
+}
+
+.reserve-btn {
+  background: var(--gold);
+  border: none;
+  padding: 10px 20px;
+  color: black;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.reserve-btn:hover {
+  background: var(--soft-gold);
+}
+
+
+@media (max-width: 900px) {
+  .navbar {
+    padding: 15px 20px;
+    gap: 20px;
+  }
+
+  .nav-links {
+    gap: 10px;
+  }
+
+  .reserve-btn {
+    padding: 8px 16px;
+  }
+}
+}

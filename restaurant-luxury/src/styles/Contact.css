@@ -1,0 +1,89 @@
+.contact-section {
+  padding: 100px 80px;
+  background: black;
+  color: var(--light-text);
+}
+
+.contact-title {
+  font-size: 42px;
+  font-family: 'Playfair Display', serif;
+  color: var(--gold);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.contact-subtitle {
+  text-align: center;
+  margin-bottom: 40px;
+  color: var(--gray-text);
+}
+
+.contact-form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.reservation-form {
+  width: 500px;
+  background: var(--dark);
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  color: var(--gray-text);
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: var(--gold);
+}
+
+.reservation-form input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--gold);
+  background: transparent;
+  color: white; 
+}
+
+
+.reservation-form input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
+.reservation-form input[type="date"]::-webkit-calendar-picker-indicator,
+.reservation-form input[type="time"]::-webkit-calendar-picker-indicator,
+.reservation-form input[type="number"]::-webkit-inner-spin-button {
+  filter: invert(1);
+  cursor: pointer;
+}
+
+
+.reservation-form input[type="date"]::-moz-focus-inner,
+.reservation-form input[type="time"]::-moz-focus-inner,
+.reservation-form input[type="number"]::-moz-focus-inner {
+  color: white;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: var(--gold);
+  color: black;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submit-btn:hover {
+  background: var(--soft-gold);
+}
