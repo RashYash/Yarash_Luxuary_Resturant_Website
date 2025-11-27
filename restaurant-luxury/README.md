@@ -1,70 +1,167 @@
-# Getting Started with Create React App
+🍽️ YARASH – Luxury Fine Dining Restaurant Website
+A premium restaurant website crafted with React & modern UI design.
+<p align="center"> <img src="https://img.shields.io/badge/React-v18-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/CSS3-Styled-orange?style=for-the-badge" /> <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" /> <img src="https://img.shields.io/badge/UI%2FUX-Luxury_Gold_Theme-gold?style=for-the-badge" /> </p>
+🌟 Project Preview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+(You can replace these with your actual screenshots later)
 
-## Available Scripts
+<p align="center"> <img src="https://via.placeholder.com/900x450?text=Hero+Section+Preview" /> </p> <p align="center"> <img src="https://via.placeholder.com/900x450?text=Menu+Section+Preview" /> </p>
+✨ Overview
 
-In the project directory, you can run:
+YARASH is a luxury restaurant website designed to deliver a sophisticated digital dining experience.
+It features a full-screen background video, premium gold styling, smooth scroll navigation, a dynamic menu, a chef highlight, and a reservation system — all wrapped in a modern, elegant UI.
 
-### `npm start`
+This website is ideal for fine-dining restaurants, cafés, or luxury culinary brands.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🎁 Features
+🎬 Video Hero Section
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Looping cinematic restaurant video
 
-### `npm test`
+Elegant gold typography
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+CTA button leading to the Menu section
 
-### `npm run build`
+🧭 Glassmorphism Navbar
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Transparent background
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Smooth scrolling to each section
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Highlighted active states
 
-### `npm run eject`
+🍽️ Dynamic Multi-Category Menu
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Categories included:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Beverages
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Breakfast
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Lunch
 
-## Learn More
+Dinner
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+10 sample dishes per category
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Smooth horizontal scroll
 
-### Code Splitting
+Hover animations
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+👨‍🍳 Meet Our Chef
 
-### Analyzing the Bundle Size
+Centered premium chef portrait
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Elegant bio with justified text + line breaks
 
-### Making a Progressive Web App
+Subtle shadowing for modern aesthetic
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+🏛️ About the Restaurant
 
-### Advanced Configuration
+History of YARASH
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Mission & vision
 
-### Deployment
+Luxury dining experience introduction
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Designed with premium card-style layout
 
-### `npm run build` fails to minify
+📍 Contact & Reservation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Beautiful dark-mode booking form
+
+Input fields include:
+
+Name
+
+Email
+
+Phone
+
+Date
+
+Time
+
+Number of Guests
+
+Google Map embed
+
+White contact icons with grid layout
+
+🛠️ Tech Stack
+Technology	Purpose
+React.js	Frontend framework
+CSS3	Custom luxury styling
+Flex & Grid	Responsive layout
+Smooth Scroll	Section navigation
+Icons8 / SVG Icons	White themed icons
+📂 Project Structure
+src/
+│── components/
+│   ├── Navbar.jsx
+│   ├── Home.jsx
+│   ├── About.jsx
+│   ├── Menu.jsx
+│   ├── Contact.jsx
+│   ├── Footer.jsx
+│   └── ChefSection.jsx
+│
+│── styles/
+│   ├── Navbar.css
+│   ├── Home.css
+│   ├── About.css
+│   ├── Menu.css
+│   ├── Contact.css
+│   └── Footer.css
+│
+└── assets/
+    ├── hero-video.mp4
+    ├── chef.jpg
+    ├── categories/
+    └── icons/
+
+🚀 How to Run the Project
+# Clone the repository
+git clone https://github.com/your-username/yarash-restaurant.git
+
+# Go into project folder
+cd yarash-restaurant
+
+# Install dependencies
+npm install
+
+# Start the project
+npm start
+
+🎯 Purpose of the Project
+
+This project demonstrates:
+
+Professional UI/UX design
+
+Responsive frontend development
+
+Handling video backgrounds in React
+
+Component structuring
+
+Menu categorization logic
+
+Form handling & modern layout skills
+
+Perfect for portfolios, academic projects, or client demos.
+
+🔮 Future Enhancements
+
+Backend reservation saving (Node.js + MongoDB)
+
+Admin dashboard for menu management
+
+Real-time customer reviews section
+
+Animations using Framer Motion
+
+❤️ Created By
+Yasara Siriwardhana 
+
+Software Engineering Undergraduate @ CINEC Campus| Frontend Developer| UI/UX Designer | Graphic Designer|
